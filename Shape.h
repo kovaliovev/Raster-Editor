@@ -1,12 +1,5 @@
 #pragma once
 
-#define COL_BLACK RGB(0, 0, 0)
-#define COL_WHITE RGB(255, 255, 255)
-#define COL_YELLOW RGB(255, 255, 0)
-#define COL_GREEN RGB(51, 255, 51)
-#define COL_BLUE RGB(51, 51, 255)
-#define COL_RED RGB(255, 0, 0)
-
 class Shape {
 protected:
 	int shape_x_1;

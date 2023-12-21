@@ -3,6 +3,6 @@
 #include "Pencil.h"
 
 Pencil::Pencil() {
-	SetColor(RGB(0, 0, 0));
+	SetColor(COL_BLACK);
 	SetThick(1);
 }

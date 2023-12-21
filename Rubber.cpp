@@ -3,10 +3,10 @@
 #include "Rubber.h"
 
 Rubber::Rubber() {
-	SetColor(RGB(255, 255, 255));
+	SetColor(COL_WHITE);
 	SetThick(1);
 }
 
 void Rubber::SetColor(COLORREF new_color) {
-	Tool::SetColor(RGB(255, 255, 255));
+	Tool::SetColor(COL_WHITE);
 }

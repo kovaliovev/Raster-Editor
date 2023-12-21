@@ -32,6 +32,12 @@
 #define ID_FILE_SAVE_AS                 32774
 #define IDC_STATIC                      -1
 
+#define ARRAY_OF_SHAPES_SIZE 99999
+#define TOOLBAR_HEIGHT 37
+
+#define COL_BLACK RGB(0, 0, 0)
+#define COL_WHITE RGB(255, 255, 255)
+
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED

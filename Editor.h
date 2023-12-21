@@ -1,10 +1,8 @@
 #pragma once
 #include "Shape.h"
 #include "Toolbar.h"
-#include "Pencil.h"
-
-#define ARRAY_OF_SHAPES_SIZE 99999
-#define TOOLBAR_HEIGHT 37
+#include "File.h"
+#include "Tool.h"
 
 class Editor {
 private:
@@ -20,6 +18,7 @@ private:
 	int currThick = 1;
 	bool isDrawing = false;
 	Toolbar toolbar;
+	File file;
 	POINT point;
 	void ClearShapes();
 	int windowHeight;
